@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Hugging Face cache
+.cache/
+.cache/huggingface/
+models/
+
+# ChromaDB generated database
+chroma_db/
+chroma_db_data/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
